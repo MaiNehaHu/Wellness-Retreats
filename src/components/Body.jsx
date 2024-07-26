@@ -17,7 +17,7 @@ const Body = () => {
     const [currentPage, setCurrentPage] = useState(0);
     const scrollContainerRef = useRef(null);
     const is640px = useMediaQuery('(max-width:640px)');
-    console.log(is640px);
+    // console.log(is640px);
 
     const fetchRetreats = async () => {
         try {
