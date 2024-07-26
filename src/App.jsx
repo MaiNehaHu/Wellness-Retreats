@@ -9,7 +9,7 @@ import Body from './components/Body'
 function App() {
 
   return (
-    <BrowserRouter basename='wellness-retreats'>
+    <BrowserRouter basename='Wellness-Retreats'>
       <Routes>
         <Route path='/' element={
           <React.Fragment>
