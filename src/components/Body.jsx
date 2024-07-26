@@ -103,7 +103,7 @@ const Body = () => {
                         }
                     </div>
                     :
-                    <div ref={scrollContainerRef} className="flex flex-row-reverse items-stretch gap-4 w-full overflow-hidden min-h-[485px] scrollbar-hide relative">
+                    <div ref={scrollContainerRef} className="flex flex-row items-stretch gap-4 w-full overflow-hidden min-h-[485px] scrollbar-hide relative">
                         {
                             paginatedData.map((data, index) => (
                                 <Card data={data} key={index} />
